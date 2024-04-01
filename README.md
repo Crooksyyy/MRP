@@ -66,4 +66,4 @@ Researchers can utilize this dataset for a wide range of purposes including poli
 - Robustness Testing
 
 # LLM Usage 
-Aspects of this repo were written with the help of llm's like chatGPT 3.5 and writting assistance tools like grammerly 
+Aspects of this repo were written with the help of llm's like chatGPT 3.5 and writting assistance tools like grammerly. This can all be found in the usage.txt file
