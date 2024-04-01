@@ -7,7 +7,7 @@ date-format: "D MMMM YYYY"
 abstract: "The US Voter Prediction Model (UVPM) is a machine learning model aimed at predicting voting behavior and demographic characteristics of individual voters in the United States. Its primary goal is to provide insights to researchers, policymakers, and analysts for understanding voter trends, predicting election outcomes, and studying socio-political dynamics. The UVPM is intended strictly for research and analytical purposes and should not be utilized for making individual-level decisions or interventions."
 format: pdf
 ---
-#Model Card
+# Model Card
 
 **Model Details:**
 
