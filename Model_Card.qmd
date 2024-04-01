@@ -1,0 +1,63 @@
+---
+title: "Model Card for US Voter Prediction Model (UVPM)"
+author: 
+  - Gavin Crooks
+date: "`r Sys.time()`"
+date-format: "D MMMM YYYY"
+abstract: "The US Voter Prediction Model (UVPM) is a machine learning model aimed at predicting voting behavior and demographic characteristics of individual voters in the United States. Its primary goal is to provide insights to researchers, policymakers, and analysts for understanding voter trends, predicting election outcomes, and studying socio-political dynamics. The UVPM is intended strictly for research and analytical purposes and should not be utilized for making individual-level decisions or interventions."
+format: pdf
+---
+#Model Card
+
+**Model Details:**
+
+- Model Name: US Voter Prediction Model (UVPM)
+- Model Type: Supervised Learning, Classification
+- Model Version: 1.0
+- Model Owner: Gavin Crooks, University of Toronto
+- Date Created: 31 March 2024
+- Last Updated: 31 March 2024
+
+
+
+**Intended Use:**
+
+The US Voter Prediction Model (UVPM) is a machine learning model aimed at predicting voting behavior and demographic characteristics of individual voters in the United States. Its primary goal is to provide insights to researchers, policymakers, and analysts for understanding voter trends, predicting election outcomes, and studying socio-political dynamics. The UVPM is intended strictly for research and analytical purposes and should not be utilized for making individual-level decisions or interventions.
+
+
+**Metrics:**
+
+The UVPM's performance is assessed using standard metrics including:
+
+- Accuracy: Measures the proportion of correctly predicted instances.
+- Precision: Gauges the proportion of true positive predictions among all positive predictions.
+- Recall: Indicates the proportion of true positive predictions among all actual positive instances.
+- F1 Score: Represents the harmonic mean of precision and recall, offering a balanced measure of model performance.
+- Area Under the Receiver Operating Characteristic Curve (AUC-ROC): Evaluates the model's ability to differentiate between positive and negative instances across varying threshold values.
+
+
+**Training Data:**
+
+The UVPM was trained on a dataset comprising demographic information, voting history, and socio-economic indicators of individual voters in the United States. The primary training dataset was sourced from the 2020 US Cooperative Election Study, a nationally representative survey of American voters. Additionally, the model underwent post-stratification on an individual basis using a US voter file record obtained from a private company. The training data was preprocessed and cleaned to ensure data quality and consistency.
+
+
+**Ethical Considerations:**
+
+- Privacy: The UVPM respects individual privacy rights by aggregating and anonymizing voter data at the population level. No personally identifiable information is stored or utilized by the model. It's crucial to uphold privacy standards and prevent re-identification of individuals from aggregated data.
+- Fairness: Efforts were made to mitigate biases by ensuring representativeness in the training data and evaluating for disparate impact across demographic groups. However, residual biases may exist, necessitating ongoing monitoring and mitigation efforts.
+- Transparency: Model details, including training data sources, performance metrics, and limitations, are disclosed in this model card to promote transparency and accountability. Transparency is critical for fostering trust and understanding among users.
+
+
+**Caveats and Recommendations:**
+
+- Interpretation: Users should exercise caution when interpreting UVPM predictions and supplement them with domain knowledge. While the model aims for accuracy, it may not capture all contextual factors influencing voting behavior.
+- Validation: Regular validation of model predictions against ground truth data is advised, along with sensitivity analyses to assess model robustness. Users should pay particular attention to model performance across demographic groups to identify potential biases or disparities.
+- Usage Limitations: The UVPM is intended for providing insights at the aggregate level and should not be used for making individual-level decisions or interventions. Users should be aware of the probabilistic nature of the model's predictions and refrain from overinterpreting them.
+
+
+**Disclaimer:**
+
+The US Voter Prediction Model (UVPM) is provided as-is, without warranty or guarantee of accuracy. Users assume all risks associated with its usage and are responsible for interpreting results appropriately. The model owner and developers disclaim any liability for damages or consequences arising from the use of the UVPM.
+
+
+
