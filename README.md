@@ -1,6 +1,6 @@
 # Voter File Dataset 
 
-##Overview
+## Overview
 
 This repository contains documentation for the Voter File Dataset, a comprehensive collection of voter information obtained from a private company. The dataset serves as a valuable resource for researchers and analysts interested in studying voter demographics, behaviors, and trends in the United States.
 
